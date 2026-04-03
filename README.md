@@ -89,8 +89,8 @@ This project showcases a modern navigation system with advanced animations power
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd gsap__nav-slide
+git clone git@github.com:jmarellanes/nav-slide__gsap.git
+cd nav-slide__gsap
 ```
 
 2. Install dependencies:
