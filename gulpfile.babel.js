@@ -1,7 +1,9 @@
 import { src, dest, watch, series, parallel } from 'gulp';
-import sass from 'gulp-sass';
+import gulpSass from 'gulp-sass';
+import dartSass from 'sass';
 import browserSync from 'browser-sync';
 
+const sass = gulpSass(dartSass);
 const autoReload = browserSync.create();
 
 export const serve = (done) => {
